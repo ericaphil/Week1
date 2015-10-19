@@ -1,0 +1,76 @@
+header {
+  padding-top: 10px 8px 8px 10px;
+  text-align: center;
+}
+
+body {
+  background-color: #2A3138;
+  padding: 20px;
+  font-family: Courier, monospace;
+}
+
+header, aside, article {
+  padding: 8px;
+  background-color: #506375;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px #333;
+}
+
+section, aside {
+  float: left;
+}
+
+section {
+  max-width: 70%;
+}
+
+aside {
+  min-width: 27%;
+  margin-left: 10px;
+}
+
+h1, h2, h3, h4 {
+  color: #ffffff;
+}
+
+aside section {
+  background-color: #506375;
+  border-radius: 8px;
+  float: none;
+  min-height: 150px;
+  max-width: 100%;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 2px #333;
+}
+
+aside section h4 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+section header h2, section header h3, section header h4 {
+  margin: 1px;
+}
+
+section header h3 {
+  font-style: italic;
+  font-weight: 100;
+}
+
+article p {
+  color: white;
+  text-align: center;
+
+
+}
+
+article span {
+  text-decoration: underline;
+}
